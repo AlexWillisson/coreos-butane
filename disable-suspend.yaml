@@ -1,0 +1,6 @@
+systemd:
+  units:
+    - name: systemd-logind.service
+      options:
+        HandleLidSwitch: ignore
+      
